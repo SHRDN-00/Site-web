@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Varela&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul li {
+    list-style: none;
+}
+body {
+    font-family: "Varela", sans-serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+}
+div.box {
+    padding-bottom: 5px;
+    text-align: center;
+    color: hsla(0, 0%, 100%, 0.65);
+    border-bottom: 2px solid hsla(0, 0%, 100%, 0.65);
+    margin-bottom: 2em;
+}
+#time {
+    margin-bottom: 20px;
+    font-size: 90px;
+}
+#greeting {
+    font-size: 30px;
+}
+#temperature {
+    margin: 1rem auto;
+}
+.night {
+    background-image: url("background1.jpg");
+}
+.morning {
+    background-image: url("15 Powerful Morning Routines to Jumpstart Your Day.jpg");
+}
+.afternoon {
+    background-image: url("808748045560397481.jpg");
+}
+.evening {
+    background-image: url("751608625332238424.jpg");
+}
+ul.links {
+    position: absolute;
+    bottom: 20px;
+    width: 30%;
+    border-radius: 16px;
+    padding: 0.5em;
+    background-color: rgba(255, 255, 255, 0.2);
+    display: flex;
+    justify-content: space-around;
+}
+ul li {
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    padding: 10px;
+    transition: all 200ms ease-in-out;
+}
+ul li:hover {
+    background-color: rgba(255, 255, 255, 0.7);
+    transform: scale(1.05);
+}
+ul.links li a {
+    display: flex;
+    justify-content: center;
+}
+ul.links li a img {
+    width: 100%;
+}
+nav a{
+    color: rgb(142, 190, 182);
+    text-decoration: none;
+    font-weight: bold;
+}
+@media screen and (max-width: 500px) {
+    #time {
+        font-size: 70px;
+    }
+    #greeting {
+        font-size: 20px;
+    }
+}
