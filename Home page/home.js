@@ -1,4 +1,4 @@
-let user = "BsK"; //My username
+let user = "SHRDN"; //My username
 let time = document.getElementById("time");
 let date = document.getElementById("date");
 let greeting = document.getElementById("greeting");
