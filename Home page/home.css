@@ -1,12 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Varela&display=swap");
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 ul li {
     list-style: none;
 }
+
 body {
     font-family: "Varela", sans-serif;
     background-size: cover;
@@ -18,6 +21,7 @@ body {
     height: 100vh;
     width: 100vw;
 }
+
 div.box {
     padding-bottom: 5px;
     text-align: center;
@@ -25,28 +29,36 @@ div.box {
     border-bottom: 2px solid hsla(0, 0%, 100%, 0.65);
     margin-bottom: 2em;
 }
+
 #time {
     margin-bottom: 20px;
     font-size: 90px;
 }
+
 #greeting {
     font-size: 30px;
 }
+
 #temperature {
     margin: 1rem auto;
 }
+
 .night {
     background-image: url("https://media.z-suite.it/thesmerald.it/public/Alghero/Night-in-Alghero-SMALL-157739325_4203x2802.jpg");
 }
+
 .morning {
     background-image: url("https://www.pincamp.de/i/alghero-panorama?handle=VFirZzUTi6bKiHEWnums&auto=compress%2Cformat&fit=crop&q=20&w=1440");
 }
+
 .afternoon {
     background-image: url("https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/a0/bb/a0/caption.jpg?w=1200&h=-1&s=1&cx=1920&cy=1080&chk=v1_a5a0392dd9fce2df6694");
 }
+
 .evening {
     background-image: url("https://wallpapershome.com/images/wallpapers/sardinia-wallpaper-3840x2160-holiday-sun-3678.jpg");
 }
+
 ul.links {
     position: absolute;
     bottom: 20px;
@@ -57,6 +69,7 @@ ul.links {
     display: flex;
     justify-content: space-around;
 }
+
 ul li {
     width: 50px;
     display: flex;
@@ -66,26 +79,32 @@ ul li {
     padding: 10px;
     transition: all 200ms ease-in-out;
 }
+
 ul li:hover {
     background-color: rgba(255, 255, 255, 0.7);
     transform: scale(1.05);
 }
+
 ul.links li a {
     display: flex;
     justify-content: center;
 }
+
 ul.links li a img {
     width: 100%;
 }
-nav a{
+
+nav a {
     color: rgb(142, 190, 182);
     text-decoration: none;
     font-weight: bold;
 }
+
 @media screen and (max-width: 500px) {
     #time {
         font-size: 70px;
     }
+
     #greeting {
         font-size: 20px;
     }
